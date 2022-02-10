@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Verma Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+       body{
+              font-family: 'Baloo Bhai', cursive;
+              color:white;
+              margin: 0px;
+              padding: 0px;
+              background: url('img/verma.jpg');
+       
+       }
+       .left{
+              display: inline-block;
+              font-size:5px;
+              position: absolute;
+              left: 60px;
+              top: 20px;
+              text-align: center;
+       
+       }
+       .left img{
+              width:90px;
+              height: 90px;
+       
+       }
+       .left div{
+              text-align: center;
+              line-height: 20px;
+              font-size: 27px;
+       }
+       .mid{
+              display:block;
+              width: 60%;
+              margin:10px auto;
+              
+       }
+       .right{
+              position: absolute;
+              right: 34px;
+              top:43px;
+              display: inline-block;
+       }
+       .btn{
+              margin: 0px 17px;
+              color: red;
+              background-color: black;
+              padding: 5px 15px;
+              border: 5px solid white;
+              border-radius: 10px;
+              cursor: pointer;
+              font-size: 20px;
+       }
+       .btn:hover{
+              background-color: rgb(33, 30,30);
+       }
+
+       .navbar{
+              display: inline-block;
+       }
+       .navbar li{
+             display: inline-block;
+             font-size:25px;
+             font: lighter;
+             
+       }
+       .navbar li a{
+              color: white;
+              text-decoration: none;
+              padding: 15px 15px;
+
+       }
+       .navbar li a:hover, .navbar li a:active{
+              text-decoration: underline;
+              color: red;
+       }
+       .container{  
+              position: absolute;
+              right: 34px;
+              top:43px;  
+              border: 3px solid white;
+              margin: 78px 38px;
+              padding: 28px;
+              width:40%;
+              border-radius: 28px;
+       }
+       .form-group input{
+              font-family: 'Baloo Bhai', cursive;
+              text-align: center;
+              display: block;
+              width: 400px;
+              padding: 1px;
+              border: 2px solid green;
+              margin: 11px auto;
+              font-size: 25px;
+              border-radius: 10px;
+              
+       }
+       .container h1{
+              text-align: center;
+              color: red;
+       }
+       .container button{
+              display: block;
+              width:400px;
+              margin: auto;
+       }
+
+              
+        </style>
+<body>
+       <header class="verma">
+              <!--Left box for logo-->
+              <div class="left">
+                     <img src="img/mani.jpg">
+                     <div>Verma Fitness</div>
+
+
+              </div>
+              <!--mid box for logo-->
+              <div class="mid">
+                     <ul class="navbar">
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#"> About us</a></li>
+                     <li><a href="#"> Fitness Calculator</a></li>
+                     <li><a href="#"> Contect us</a></li>
+                     </ul>
+
+
+              </div>
+              <!--right box for logo-->
+              <div class="right">
+               <button class="btn">Call us</button>
+               <button class="btn">Email us</button>
+
+              </div>
+              <div class="container">
+              <h1>Join the best gym of Ranchi now</h1>
+              <form action="noaction.php">
+                     <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Name">
+                     </div>
+                     <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Age">
+                     </div>
+                     <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Gender">
+                     </div>
+                     <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Locality">
+                     </div>
+                     <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Nationality">
+                     </div>
+                     <div class="form-group">
+                            <input type="text" name="" placeholder="Enter your Contect">
+                     </div>
+                     <button class="btn">Submit</button>
+              </form>
+              </div>
+       </header>
+       
+</body>
+</html>
